@@ -5,7 +5,7 @@ LABEL updated_at=2017-08-23
 
 RUN apt-get update -q && apt-get install -y git
 
-RUN adduser -s /bin/bash -h /asdf -D asdf
+RUN adduser --shell /bin/bash --home /asdf --disabled-password asdf
 ENV PATH="${PATH}:/asdf/.asdf/shims:/asdf/.asdf/bin"
 
 USER asdf

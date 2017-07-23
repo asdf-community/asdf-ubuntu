@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -e
+
+apt-get install -y build-essential autoconf m4 libncurses5-dev libwxgtk3.0-dev libgl1-mesa-dev libglu1-mesa-dev libpng3 libssh-dev unixodbc-dev

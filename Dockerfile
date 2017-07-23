@@ -1,4 +1,12 @@
-FROM vborja/asdf-ubuntu:erlang-20.0
+FROM vborja/asdf-ubuntu:elixir-1.5.0-rc.2-otp-20
 
-ADD elixir .asdf/toolset/elixir/
-RUN asdf-install-toolset elixir
+USER root
+ADD https://github.com/vic/asdf-ubuntu/archive/nodejs-8.2.1.zip /tmp/nodejs.zip
+RUN unzip /tmp/nodejs.zip -d /tmp
+RUN mv /tmp/asdf-ubuntu-nodejs-8.2.1/nodejs .asdf/toolset/nodejs
+
+
+USER root
+RUN bash .asdf/toolset/nodejs/build-deps
+USER asdf
+RUN asdf-install-toolset nodejs

@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+source .asdf/plugins/nodejs/bin/import-release-team-keyring

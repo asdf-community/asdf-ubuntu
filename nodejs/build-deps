@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+set -e
+
+apk add --no-cache --virtual .asdf-nodejs-build \
+ musl-dev musl build-base gnupg perl-utils
+

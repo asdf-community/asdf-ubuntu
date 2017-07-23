@@ -15,7 +15,5 @@ COPY asdf-install-toolset /usr/local/bin
 
 ONBUILD USER asdf
 ONBUILD RUN git clone --depth 1 https://github.com/asdf-vm/asdf.git $HOME/.asdf && \
-    echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.bashrc && \
-    echo -e '\n. $HOME/.asdf/asdf.sh' >> ~/.profile && \
-    source ~/.bashrc && \
-    mkdir -p $HOME/.asdf/toolset
+    echo -e '\n. $HOME/.asdf/asdf.sh' >> $HOME/.bashrc && \
+    echo -e '\n. $HOME/.asdf/asdf.sh' >> $HOME/.profile

@@ -1,4 +1,4 @@
-FROM vborja/asdf-ubuntu:elixir-1.5.0-rc.2-otp-20
+FROM vborja/asdf-ubuntu:elixir-1.5.0-otp-20
 
 USER root
 ADD https://github.com/vic/asdf-ubuntu/archive/nodejs-8.2.1.zip /tmp/nodejs.zip

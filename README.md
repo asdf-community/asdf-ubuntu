@@ -12,17 +12,16 @@ There's also an [asdf-alpine](https://github.com/vic/asdf-alpine) sister repo.
 
 The list of [built][builds] images can be found at [dockerhub] and you can find their [source branch][branches] on github.
 
-| Status | Source | Dockerfile |
-|--------|--------|--------|
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-otp-20-node-8.2.1.svg)](https://github.com/vic/asdf-ubuntu/tree/elixir-1.5.0-otp-20-node-8.2.1)| [elixir-1.5.0-otp-20-node-8.2.1](https://github.com/vic/asdf-ubuntu/tree/elixir-1.5.0-otp-20-node-8.2.1)| [`FROM vborja/alpine:elixir-1.5.0-otp-20-node-8.2.1`](https://github.com/vic/asdf-ubuntu/blob/elixir-1.5.0-otp-20-node-8.2.1/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-otp-20.svg)](https://github.com/vic/asdf-ubuntu/tree/elixir-1.5.0-otp-20)| [elixir-1.5.0-otp-20](https://github.com/vic/asdf-ubuntu/tree/elixir-1.5.0-otp-20)| [`FROM vborja/alpine:elixir-1.5.0-otp-20`](https://github.com/vic/asdf-ubuntu/blob/elixir-1.5.0-otp-20/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-rc.2-otp-20-node-8.2.1.svg)](https://github.com/vic/asdf-ubuntu/tree/elixir-1.5.0-rc.2-otp-20-node-8.2.1)| [elixir-1.5.0-rc.2-otp-20-node-8.2.1](https://github.com/vic/asdf-ubuntu/tree/elixir-1.5.0-rc.2-otp-20-node-8.2.1)| [`FROM vborja/alpine:elixir-1.5.0-rc.2-otp-20-node-8.2.1`](https://github.com/vic/asdf-ubuntu/blob/elixir-1.5.0-rc.2-otp-20-node-8.2.1/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-rc.2-otp-20.svg)](https://github.com/vic/asdf-ubuntu/tree/elixir-1.5.0-rc.2-otp-20)| [elixir-1.5.0-rc.2-otp-20](https://github.com/vic/asdf-ubuntu/tree/elixir-1.5.0-rc.2-otp-20)| [`FROM vborja/alpine:elixir-1.5.0-rc.2-otp-20`](https://github.com/vic/asdf-ubuntu/blob/elixir-1.5.0-rc.2-otp-20/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/erlang-20.0.svg)](https://github.com/vic/asdf-ubuntu/tree/erlang-20.0)| [erlang-20.0](https://github.com/vic/asdf-ubuntu/tree/erlang-20.0)| [`FROM vborja/alpine:erlang-20.0`](https://github.com/vic/asdf-ubuntu/blob/erlang-20.0/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/master.svg)](https://github.com/vic/asdf-ubuntu/tree/master)| [master](https://github.com/vic/asdf-ubuntu/tree/master)| [`FROM vborja/alpine:master`](https://github.com/vic/asdf-ubuntu/blob/master/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/nodejs-8.2.1.svg)](https://github.com/vic/asdf-ubuntu/tree/nodejs-8.2.1)| [nodejs-8.2.1](https://github.com/vic/asdf-ubuntu/tree/nodejs-8.2.1)| [`FROM vborja/alpine:nodejs-8.2.1`](https://github.com/vic/asdf-ubuntu/blob/nodejs-8.2.1/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/ruby-2.4.1.svg)](https://github.com/vic/asdf-ubuntu/tree/ruby-2.4.1)| [ruby-2.4.1](https://github.com/vic/asdf-ubuntu/tree/ruby-2.4.1)| [`FROM vborja/alpine:ruby-2.4.1`](https://github.com/vic/asdf-ubuntu/blob/ruby-2.4.1/Dockerfile) |
-
+| Status | Dockerfile |
+|--------|------------|
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-otp-20-node-8.2.1.svg)](https://github.com/vborja/asdf-ubuntu/tree/elixir-1.5.0-otp-20-node-8.2.1)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-otp-20-node-8.2.1`](https://github.com/vborja/asdf-ubuntu/blob/elixir-1.5.0-otp-20-node-8.2.1/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-otp-20.svg)](https://github.com/vborja/asdf-ubuntu/tree/elixir-1.5.0-otp-20)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-otp-20`](https://github.com/vborja/asdf-ubuntu/blob/elixir-1.5.0-otp-20/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-rc.2-otp-20-node-8.2.1.svg)](https://github.com/vborja/asdf-ubuntu/tree/elixir-1.5.0-rc.2-otp-20-node-8.2.1)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-rc.2-otp-20-node-8.2.1`](https://github.com/vborja/asdf-ubuntu/blob/elixir-1.5.0-rc.2-otp-20-node-8.2.1/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-rc.2-otp-20.svg)](https://github.com/vborja/asdf-ubuntu/tree/elixir-1.5.0-rc.2-otp-20)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-rc.2-otp-20`](https://github.com/vborja/asdf-ubuntu/blob/elixir-1.5.0-rc.2-otp-20/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/erlang-20.0.svg)](https://github.com/vborja/asdf-ubuntu/tree/erlang-20.0)| [`FROM vborja/asdf-ubuntu:erlang-20.0`](https://github.com/vborja/asdf-ubuntu/blob/erlang-20.0/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/master.svg)](https://github.com/vborja/asdf-ubuntu/tree/master)| [`FROM vborja/asdf-ubuntu:master`](https://github.com/vborja/asdf-ubuntu/blob/master/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/nodejs-8.2.1.svg)](https://github.com/vborja/asdf-ubuntu/tree/nodejs-8.2.1)| [`FROM vborja/asdf-ubuntu:nodejs-8.2.1`](https://github.com/vborja/asdf-ubuntu/blob/nodejs-8.2.1/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/ruby-2.4.1.svg)](https://github.com/vborja/asdf-ubuntu/tree/ruby-2.4.1)| [`FROM vborja/asdf-ubuntu:ruby-2.4.1`](https://github.com/vborja/asdf-ubuntu/blob/ruby-2.4.1/Dockerfile) |
 
 ## Build
 
@@ -74,6 +73,9 @@ docker run --rm -ti nodejs-8.2.1 node
 
 # commit and create a new PR when everything is ok.
 ```
+
+If you create a new branch be sure to add the `.travis.yml` file so that the image
+for that branch is built automatically.
 
 ## Repo layout
 

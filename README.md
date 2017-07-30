@@ -12,15 +12,24 @@ There's also an [asdf-alpine](https://github.com/vic/asdf-alpine) sister repo.
 
 The list of [built][builds] images can be found at [dockerhub] and you can find their [source branch][branches] on github.
 
+
+
+
+[_]: #begin-table
+
 | Status | Dockerfile |
 |--------|------------|
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-otp-20-node-8.2.1.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#elixir-1.5.0-otp-20-node-8.2.1)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-otp-20-node-8.2.1`](https://github.com/vborja/asdf-ubuntu/blob/elixir-1.5.0-otp-20-node-8.2.1/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-otp-20.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#elixir-1.5.0-otp-20)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-otp-20`](https://github.com/vborja/asdf-ubuntu/blob/elixir-1.5.0-otp-20/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-rc.2-otp-20.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#elixir-1.5.0-rc.2-otp-20)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-rc.2-otp-20`](https://github.com/vborja/asdf-ubuntu/blob/elixir-1.5.0-rc.2-otp-20/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/erlang-20.0.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#erlang-20.0)| [`FROM vborja/asdf-ubuntu:erlang-20.0`](https://github.com/vborja/asdf-ubuntu/blob/erlang-20.0/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/master.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#master)| [`FROM vborja/asdf-ubuntu:master`](https://github.com/vborja/asdf-ubuntu/blob/master/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/nodejs-8.2.1.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#nodejs-8.2.1)| [`FROM vborja/asdf-ubuntu:nodejs-8.2.1`](https://github.com/vborja/asdf-ubuntu/blob/nodejs-8.2.1/Dockerfile) |
-| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/ruby-2.4.1.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#ruby-2.4.1)| [`FROM vborja/asdf-ubuntu:ruby-2.4.1`](https://github.com/vborja/asdf-ubuntu/blob/ruby-2.4.1/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-otp-20-node-8.2.1.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#elixir-1.5.0-otp-20-node-8.2.1)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-otp-20-node-8.2.1`](https://github.com/vic/asdf-ubuntu/blob/elixir-1.5.0-otp-20-node-8.2.1/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-otp-20.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#elixir-1.5.0-otp-20)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-otp-20`](https://github.com/vic/asdf-ubuntu/blob/elixir-1.5.0-otp-20/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/elixir-1.5.0-rc.2-otp-20.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#elixir-1.5.0-rc.2-otp-20)| [`FROM vborja/asdf-ubuntu:elixir-1.5.0-rc.2-otp-20`](https://github.com/vic/asdf-ubuntu/blob/elixir-1.5.0-rc.2-otp-20/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/erlang-20.0.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#erlang-20.0)| [`FROM vborja/asdf-ubuntu:erlang-20.0`](https://github.com/vic/asdf-ubuntu/blob/erlang-20.0/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/master.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#master)| [`FROM vborja/asdf-ubuntu:master`](https://github.com/vic/asdf-ubuntu/blob/master/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/nodejs-8.2.1.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#nodejs-8.2.1)| [`FROM vborja/asdf-ubuntu:nodejs-8.2.1`](https://github.com/vic/asdf-ubuntu/blob/nodejs-8.2.1/Dockerfile) |
+| [![Travis branch](https://img.shields.io/travis/vic/asdf-ubuntu/ruby-2.4.1.svg)](https://travis-ci.org/vic/asdf-ubuntu/branches#ruby-2.4.1)| [`FROM vborja/asdf-ubuntu:ruby-2.4.1`](https://github.com/vic/asdf-ubuntu/blob/ruby-2.4.1/Dockerfile) |
+
+[_]: #end-table
+
+
 
 ## Build
 
